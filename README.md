@@ -29,6 +29,7 @@
 - To run Anything-LLM the easiest way is to use DockerDesktop
 - Create a folder to persist Anything-LLM data i.e. C:\anything-llm-data
 - Open a new console `docker run -d -p 3001:3001 --name anythingllm -v C:\anything-llm-data:/app/server/storage -e STORAGE_DIR="/app/server/storage" mintplexlabs/anythingllm`
+- Go to http://localhost:3001 to open Anything-LLM UI
 - In Anything-LLM enter this http://host.docker.internal:11434 as Ollama Base URL. This allows Anything-LLM from within the container to connect to the host's http://localhost:11434 where Ollama is listening
 
 
